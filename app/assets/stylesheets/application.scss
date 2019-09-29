@@ -1,0 +1,72 @@
+@import "font-awesome";
+@import 'components/modal';
+
+@import url(asset-path('jquery-ui/core.css'));
+@import url(asset-path('jquery-ui/datepicker.css'));
+@import url(assset-path('jquery-ui/theme.css'));
+
+* {
+  font-family: Roboto;
+}
+
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+  cursor: pointer;
+}
+
+a {
+  outline:none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #607D7C;
+}
+
+body,textarea,input  {
+  font-family: 'Hind', sans-serif;
+}
+
+.control-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #009068;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  outline: 0;
+  border-color: #009090;
+  box-shadow: 0 0 0 0.2rem #C2F6FF;
+
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+*, *::before, *::after {
+  box-sizing:border-box;
+}
+
