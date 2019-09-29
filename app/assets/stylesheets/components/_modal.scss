@@ -43,6 +43,10 @@
   border: 0;
 }
 
+.modal__close:focus {
+  outline: none;
+}
+
 .modal__header .modal__close:before { content: "\2715"; }
 
 .modal__content {
